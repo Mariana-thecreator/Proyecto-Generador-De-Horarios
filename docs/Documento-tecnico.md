@@ -93,11 +93,11 @@ La matriz almacena valores de 0 y 1:
 
 Ejemplo:
 
-|               | Programación | Física | Matemáticas |
-|---------------|-------------|---------|--------------|
-| Programación  | 0           | 1       | 1            |
-| Física        | 1           | 0       | 0            |
-| Matemáticas   | 1           | 0       | 0            |
+|               | Programación | Física  | Matemáticas  |
+|---------------|--------------|---------|--------------|
+| Programación  | 0            | 1       | 1            |
+| Física        | 1            | 0       | 0            |
+| Matemáticas   | 1            | 0       | 0            |
 
 La matriz de adyacencia fue elegida porque permite verificar conflictos de manera rápida y es sencilla de implementar.
 
@@ -128,6 +128,7 @@ Cada color representa un bloque horario diferente.
 # 4. Operaciones implementadas
 
 | Operación | Descripción | Complejidad |
+|---|---|---|
 | Agregar curso | Inserta un nuevo curso | O(1) |
 | Buscar curso | Busca un curso en el arreglo | O(n) |
 | Eliminar curso | Elimina un curso y reorganiza la matriz | O(n²) |
@@ -164,6 +165,7 @@ Fisica,Ingles
 ## Resultado esperado
 
 | Curso | Horario |
+|---|---|
 | Programación | 7:00 AM |
 | Física | 9:00 AM |
 | Matemáticas | 9:00 AM |
@@ -181,10 +183,41 @@ El sistema verifica que dos cursos con conflicto no compartan el mismo bloque ho
 
 En esta sección se incluirán:
 
-- Diagramas del grafo.
-- Flujo del algoritmo greedy.
-- Capturas del programa funcionando.
-- Ejemplos de la matriz de adyacencia.
+## Diagrama del grafo
+
+A continuación se muestra un ejemplo del modelado del problema mediante un grafo no dirigido.
+
+![Diagrama del grafo](imagenes/grafo.png)
+
+---
+
+## Flujo del algoritmo greedy
+
+El siguiente diagrama representa el funcionamiento general del algoritmo utilizado para asignar los horarios.
+
+![Diagrama del algoritmo](imagenes/diagrama.png)
+
+---
+
+## Capturas del programa
+
+A continuación se muestran algunas capturas del sistema funcionando correctamente.
+
+### Menú principal
+
+![Menú principal](imagenes/menu.png)
+
+---
+
+### Matriz de adyacencia
+
+![Matriz de adyacencia](imagenes/matrizh.png)
+
+---
+
+### Horarios generados
+
+![Horarios generados](imagenes/matriza.png)
 
 ---
 
@@ -243,3 +276,15 @@ dotnet run
 - Exportar horarios a archivos externos.
 
 ---
+
+# 9. Herramientas de apoyo utilizadas
+
+Durante el desarrollo del proyecto se utilizaron herramientas de inteligencia artificial como apoyo para comprender algunos conceptos, corregir errores y mejorar la organización del código y la documentación.
+
+Las herramientas utilizadas fueron:
+
+- ChatGPT
+- Claude
+- Gemini
+
+Estas herramientas fueron utilizadas como apoyo académico y guía durante el desarrollo del proyecto.
