@@ -93,11 +93,11 @@ La matriz almacena valores de 0 y 1:
 
 Ejemplo:
 
-|               | Programación | Física | Matemáticas |
-|---------------|-------------|---------|--------------|
-| Programación  | 0           | 1       | 1            |
-| Física        | 1           | 0       | 0            |
-| Matemáticas   | 1           | 0       | 0            |
+|               | Programación | Física  | Matemáticas  |
+|---------------|--------------|---------|--------------|
+| Programación  | 0            | 1       | 1            |
+| Física        | 1            | 0       | 0            |
+| Matemáticas   | 1            | 0       | 0            |
 
 La matriz de adyacencia fue elegida porque permite verificar conflictos de manera rápida y es sencilla de implementar.
 
@@ -127,15 +127,15 @@ Cada color representa un bloque horario diferente.
 
 # 4. Operaciones implementadas
 
-| Operación | Descripción | Complejidad |
-| Agregar curso | Inserta un nuevo curso | O(1) |
-| Buscar curso | Busca un curso en el arreglo | O(n) |
-| Eliminar curso | Elimina un curso y reorganiza la matriz | O(n²) |
-| Agregar conflicto | Agrega una arista entre dos cursos | O(1) |
-| Eliminar conflicto | Elimina una arista existente | O(1) |
-| Mostrar matriz | Recorre toda la matriz de adyacencia | O(n²) |
-| Generar horarios | Aplica coloreado greedy | O(n²) |
-| Validar horarios | Verifica conflictos entre horarios | O(n²) |
+| Operación          | Descripción                             | Complejidad |
+| Agregar curso      | Inserta un nuevo curso                  |     O(1)    |
+| Buscar curso       | Busca un curso en el arreglo            |     O(n)    |
+| Eliminar curso     | Elimina un curso y reorganiza la matriz |     O(n²)   |
+| Agregar conflicto  | Agrega una arista entre dos cursos      |     O(1)    |
+| Eliminar conflicto | Elimina una arista existente            |     O(1)    |
+| Mostrar matriz     | Recorre toda la matriz de adyacencia    |     O(n²)   |
+| Generar horarios   | Aplica coloreado greedy                 |     O(n²)   |
+| Validar horarios   | Verifica conflictos entre horarios      |     O(n²)   |
 
 ---
 
@@ -163,11 +163,11 @@ Fisica,Ingles
 
 ## Resultado esperado
 
-| Curso | Horario |
+| Curso        | Horario |
 | Programación | 7:00 AM |
-| Física | 9:00 AM |
-| Matemáticas | 9:00 AM |
-| Inglés | 7:00 AM |
+| Física       | 9:00 AM |
+| Matemáticas  | 9:00 AM |
+| Inglés       | 7:00 AM |
 
 ---
 
@@ -243,3 +243,15 @@ dotnet run
 - Exportar horarios a archivos externos.
 
 ---
+
+# 9. Herramientas de apoyo utilizadas
+
+Durante el desarrollo del proyecto se utilizaron herramientas de inteligencia artificial como apoyo para comprender algunos conceptos, corregir errores y mejorar la organización del código y la documentación.
+
+Las herramientas utilizadas fueron:
+
+- ChatGPT
+- Claude
+- Gemini
+
+Estas herramientas fueron utilizadas como apoyo académico y guía durante el desarrollo del proyecto.
