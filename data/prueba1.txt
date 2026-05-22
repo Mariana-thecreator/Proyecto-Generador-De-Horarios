@@ -1,0 +1,8 @@
+Programacion,Fisica
+Programacion,Matematicas
+Fisica,Ingles
+Matematicas,Quimica
+Ingles,Historia
+Quimica,Biologia
+Historia,Filosofia
+Biologia,Fisica

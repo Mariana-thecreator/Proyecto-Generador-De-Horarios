@@ -1,0 +1,3 @@
+Programacion,Fisica
+Programacion,Matematicas
+Fisica,Ingles
