@@ -127,15 +127,16 @@ Cada color representa un bloque horario diferente.
 
 # 4. Operaciones implementadas
 
-| Operación          | Descripción                             | Complejidad |
-| Agregar curso      | Inserta un nuevo curso                  |     O(1)    |
-| Buscar curso       | Busca un curso en el arreglo            |     O(n)    |
-| Eliminar curso     | Elimina un curso y reorganiza la matriz |     O(n²)   |
-| Agregar conflicto  | Agrega una arista entre dos cursos      |     O(1)    |
-| Eliminar conflicto | Elimina una arista existente            |     O(1)    |
-| Mostrar matriz     | Recorre toda la matriz de adyacencia    |     O(n²)   |
-| Generar horarios   | Aplica coloreado greedy                 |     O(n²)   |
-| Validar horarios   | Verifica conflictos entre horarios      |     O(n²)   |
+| Operación | Descripción | Complejidad |
+|---|---|---|
+| Agregar curso | Inserta un nuevo curso | O(1) |
+| Buscar curso | Busca un curso en el arreglo | O(n) |
+| Eliminar curso | Elimina un curso y reorganiza la matriz | O(n²) |
+| Agregar conflicto | Agrega una arista entre dos cursos | O(1) |
+| Eliminar conflicto | Elimina una arista existente | O(1) |
+| Mostrar matriz | Recorre toda la matriz de adyacencia | O(n²) |
+| Generar horarios | Aplica coloreado greedy | O(n²) |
+| Validar horarios | Verifica conflictos entre horarios | O(n²) |
 
 ---
 
@@ -163,11 +164,12 @@ Fisica,Ingles
 
 ## Resultado esperado
 
-| Curso        | Horario |
+| Curso | Horario |
+|---|---|
 | Programación | 7:00 AM |
-| Física       | 9:00 AM |
-| Matemáticas  | 9:00 AM |
-| Inglés       | 7:00 AM |
+| Física | 9:00 AM |
+| Matemáticas | 9:00 AM |
+| Inglés | 7:00 AM |
 
 ---
 
@@ -181,10 +183,41 @@ El sistema verifica que dos cursos con conflicto no compartan el mismo bloque ho
 
 En esta sección se incluirán:
 
-- Diagramas del grafo.
-- Flujo del algoritmo greedy.
-- Capturas del programa funcionando.
-- Ejemplos de la matriz de adyacencia.
+## Diagrama del grafo
+
+A continuación se muestra un ejemplo del modelado del problema mediante un grafo no dirigido.
+
+![Diagrama del grafo](imagenes/grafo.png)
+
+---
+
+## Flujo del algoritmo greedy
+
+El siguiente diagrama representa el funcionamiento general del algoritmo utilizado para asignar los horarios.
+
+![Diagrama del algoritmo](imagenes/diagrama.png)
+
+---
+
+## Capturas del programa
+
+A continuación se muestran algunas capturas del sistema funcionando correctamente.
+
+### Menú principal
+
+![Menú principal](imagenes/menu.png)
+
+---
+
+### Matriz de adyacencia
+
+![Matriz de adyacencia](imagenes/matrizh.png)
+
+---
+
+### Horarios generados
+
+![Horarios generados](imagenes/matriza.png)
 
 ---
 
